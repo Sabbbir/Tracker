@@ -1,0 +1,12 @@
+make csv file and store that into a folder
+add blood,dept,year
+make a system that writes into the login main + button that everytime after clicking that button, a new button will get added.
+    the loop will run 10 times meaning profile of 10 students.
+        if the iterating var is even, button will be added to the left side,
+        else left side
+    each button represents id of one student
+add picture of app
+add picture in every students profile
+append informations into a file
+
+

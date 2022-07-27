@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_main">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="470dp"
+        android:layout_height="827dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/foinal"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="-48dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="352dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="352dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/login_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_main"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="239dp"
+
+        android:layout_height="24dp"
+        android:hint="@string/pass_eg_login_page"
+        android:textColorHint="@color/ash"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/egmail11"
+        android:layout_width="361dp"
+        android:layout_height="24dp"
+        android:hint="@string/mail4"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/egmail1"
+        android:layout_width="361dp"
+        android:layout_height="24dp"
+        android:hint="@string/mail3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/egmail2"
+        android:layout_width="361dp"
+        android:layout_height="24dp"
+        android:hint="@string/mail1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/egmail3"
+        android:layout_width="361dp"
+        android:layout_height="24dp"
+        android:hint="@string/mail2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/ash"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

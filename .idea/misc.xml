@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_add_renter_info.xml" value="0.5094501718213058" />
+        <entry key="app/src/main/res/layout/activity_first_person_profile.xml" value="0.28291814946619215" />
+        <entry key="app/src/main/res/layout/activity_first_pprofile_without_logging_in.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/activity_login_home.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_login_main.xml" value="0.40924775707384403" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="app/src/main/res/layout/activity_second_person_profile.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/activity_second_person_profile_without_logging_in.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/activity_signup_landlord.xml" value="0.22592592592592592" />
+        <entry key="app/src/main/res/layout/activity_skip_signup_login.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

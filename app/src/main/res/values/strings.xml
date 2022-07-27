@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Tracker</string>
+    <string name="login_main">Login</string>
+    <string name="signup_main">Signup</string>
+    <string name="skip_main">Skip</string>
+    <string name="plus_sign">+</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="add_Information">Add Information</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Fathers_Name">Father\'s Name</string>
+    <string name="Mothers_Name">Mother\'s Name</string>
+    <string name="nid">NID</string>
+    <string name="fathers_nid">Father\'s NID</string>
+    <string name="Birthdate">Birthdate</string>
+    <string name="Age">Age</string>
+    <string name="Choose_Picture">+ Choose Picture</string>
+    <string name="submit">Submit</string>
+    <string name="all_profile">All profile</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="dot">. . .</string>
+    <string name="Full_name">Full name</string>
+    <string name="arrival_date">Arrival date</string>
+    <string name="pass_eg_login_page">pass--> password</string>
+    <string name="mail">mail:</string>
+    <string name="mail1">mail1:sabbirahmed@gmail.com</string>
+    <string name="mail2">mail2:joymondal@gmail.com</string>
+    <string name="mail3">mail3:admin@gmail.com</string>
+    <string name="mail4">mail4:ahsanmahmud@gmail.com</string>
+    <string name="date_of_arrival">Date of arrival</string>
+    <string name="paid_this_month">Paid</string>
+</resources>
