@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_add_renter_info.xml" value="0.5094501718213058" />
+        <entry key="app/src/main/res/layout/activity_add_renter_info.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_add_renterer_info_cont.xml" value="0.4" />
         <entry key="app/src/main/res/layout/activity_first_person_profile.xml" value="0.28291814946619215" />
         <entry key="app/src/main/res/layout/activity_first_pprofile_without_logging_in.xml" value="0.6" />
         <entry key="app/src/main/res/layout/activity_login_home.xml" value="0.264" />

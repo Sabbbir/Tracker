@@ -31,4 +31,8 @@
     <string name="mail4">mail4:ahsanmahmud@gmail.com</string>
     <string name="date_of_arrival">Date of arrival</string>
     <string name="paid_this_month">Paid</string>
+    <string name="bg_img">bg_img</string>
+    <string name="session">Session</string>
+    <string name="year">Year</string>
+    <string name="department">Department</string>
 </resources>

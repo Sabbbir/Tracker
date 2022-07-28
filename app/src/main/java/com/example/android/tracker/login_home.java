@@ -36,7 +36,7 @@ public class login_home extends AppCompatActivity {
         startActivity(intent);
     }
     public void  renter_add_info(){
-        Intent intent = new Intent(this,activity_add_renter_info.class);
+        Intent intent = new Intent(this,add_renterer_info_cont.class);
         startActivity(intent);
     }
 

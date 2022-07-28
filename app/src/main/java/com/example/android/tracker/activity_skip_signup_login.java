@@ -22,7 +22,7 @@ public class activity_skip_signup_login extends AppCompatActivity {
         person_two.setOnClickListener(view -> second_person_profile());
     }
     public void renderer_info_page(){
-        Intent intent = new Intent(this,activity_add_renter_info.class);
+        Intent intent = new Intent(this,add_renterer_info_cont.class);
         startActivity(intent);
     }
     public void first_person_profile(){
