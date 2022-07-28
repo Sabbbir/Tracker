@@ -5,11 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_renter_info.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_add_renterer_info_cont.xml" value="0.4" />
-        <entry key="app/src/main/res/layout/activity_first_person_profile.xml" value="0.28291814946619215" />
-        <entry key="app/src/main/res/layout/activity_first_pprofile_without_logging_in.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/activity_first_person_profile.xml" value="0.27314601566098573" />
+        <entry key="app/src/main/res/layout/activity_first_pprofile_without_logging_in.xml" value="0.34615384615384615" />
         <entry key="app/src/main/res/layout/activity_login_home.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_login_main.xml" value="0.40924775707384403" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_second_person_profile.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/layout/activity_second_person_profile_without_logging_in.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/layout/activity_signup_landlord.xml" value="0.22592592592592592" />
