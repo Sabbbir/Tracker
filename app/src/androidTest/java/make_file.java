@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class code_java {
+public class make_file {
     public static void main(String[] args) {
         try {
             String path = "/home/druglord/AndroidStudioProjects/Tracker/app/src/androidTest/java/";

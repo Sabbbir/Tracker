@@ -127,34 +127,35 @@
             android:minHeight="48dp"
             android:textColor="@color/white"
             android:textColorHint="@color/ash"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName13"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/editTextTextPersonName12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:autofillHints=""
             android:ems="10"
-            android:hint="@string/fathers_nid"
-            android:inputType="number"
+            android:hint="@string/department"
+            android:inputType="date"
             android:minHeight="48dp"
             android:textColor="@color/white"
-            android:textColorHint="@color/ash"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
+            android:textColorHint="#BCAAA4"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName9"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName9"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
             tools:ignore="MissingConstraints" />
-
 
         <EditText
             android:id="@+id/editTextTextPersonName88"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/Birthdate"
@@ -172,6 +173,7 @@
             android:id="@+id/editTextTextPersonName11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/Age"
@@ -189,6 +191,7 @@
             android:id="@+id/editTextTextPersonName9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/arrival_date"
@@ -204,27 +207,10 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
-            android:hint="@string/department"
-            android:inputType="date"
-            android:minHeight="48dp"
-            android:textColor="@color/white"
-            android:textColorHint="#BCAAA4"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName9"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
-            tools:ignore="MissingConstraints" />
-
-        <EditText
             android:id="@+id/editTextTextPersonName112"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/session"
@@ -242,6 +228,7 @@
             android:id="@+id/editTextTextPersonName1121"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/year"
@@ -255,10 +242,30 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName112"
             tools:ignore="MissingConstraints" />
 
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/fathers_nid"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/ash"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+            tools:ignore="MissingConstraints" />
+
+
         <Button
             android:id="@+id/choose_pic"
             android:layout_width="171dp"
             android:layout_height="48dp"
+            android:layout_marginTop="52dp"
             android:layout_marginEnd="226dp"
             android:text="@string/Choose_Picture"
             android:textAllCaps="false"
@@ -281,8 +288,21 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/choose_pic"
             app:layout_constraintTop_toBottomOf="@+id/choose_pic"
-            app:layout_constraintVertical_bias="0.055"
+            app:layout_constraintVertical_bias="0.075"
             tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/phone_num"
+            android:textColorHint="@color/ash"
+            android:textColor="@color/ash"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
 
     </android.support.constraint.ConstraintLayout>

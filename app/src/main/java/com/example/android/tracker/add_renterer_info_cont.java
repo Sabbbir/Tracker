@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class add_renterer_info_cont extends AppCompatActivity {
-    TextView first_name_obj,last_name_obj,fathers_name_obj,mothers_name_obj,nid_num_obj,fathers_nid_obj,birthdate_obj,age_obj,arrival_date_obj,department_obj,session_obj,year_obj;
+    TextView first_name_obj,last_name_obj,fathers_name_obj,mothers_name_obj,nid_num_obj,fathers_nid_obj,birthdate_obj,age_obj,arrival_date_obj,department_obj,session_obj,year_obj,phone_num_obj;
     Button submit_renter_info_button,cambutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,11 +33,12 @@ public class add_renterer_info_cont extends AppCompatActivity {
         department_obj =  findViewById(R.id.editTextTextPersonName12);
         session_obj  =  findViewById(R.id.editTextTextPersonName112);
         year_obj =  findViewById(R.id.editTextTextPersonName1121);
+        phone_num_obj = findViewById(R.id.editTextTextPersonName13);
 
     }
 
     public void  make_var_of_renter(){
-        String full_name,firstname,lastname,fathers_name,mothers_name,nid,fathers_nid,birthdate,age,arrivaldate,department,session,year;
+        String full_name,firstname,lastname,fathers_name,mothers_name,nid,fathers_nid,birthdate,age,arrivaldate,department,session,year,phone_num;
         firstname = first_name_obj.getText().toString().trim();
         lastname = last_name_obj.getText().toString().trim();
         fathers_name=fathers_name_obj.getText().toString().trim();
@@ -50,7 +51,7 @@ public class add_renterer_info_cont extends AppCompatActivity {
         department = department_obj.getText().toString().trim();
         session = session_obj.getText().toString().trim();
         year = year_obj.getText().toString().trim();
-
+        phone_num = phone_num_obj.getText().toString().trim();
 
         //full name
         full_name = firstname+" "+lastname;
@@ -100,6 +101,10 @@ public class add_renterer_info_cont extends AppCompatActivity {
         }
         if(year.isEmpty()){
             year_obj.setError("Field can not be Empty!");
+            getCurrentFocus();
+        }
+        if(phone_num.isEmpty()){
+            phone_num_obj.setError("Field can not be Empty!");
             getCurrentFocus();
         }
 
